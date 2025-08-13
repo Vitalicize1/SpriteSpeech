@@ -1,0 +1,184 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "Saludos",
+      "words": [
+        { "text": "hola", "hint": "OH-la", "translation": "hello" },
+        { "text": "adiós", "hint": "ah-DYOSS", "translation": "goodbye" },
+        { "text": "gracias", "hint": "GRAH-syahs", "translation": "thank you" },
+        { "text": "por favor", "hint": "POR fah-VOR", "translation": "please" }
+      ],
+      "winCondition": { "correctNeeded": 4 },
+      "tuning": {
+        "monsterStepPx": 26,
+        "recoilPushbackPx": 26,
+        "advanceDurationMs": 160,
+        "bulletDurationMs": 260
+      }
+    },
+    {
+      "id": 2,
+      "name": "Cortesías",
+      "words": [
+        { "text": "buenos días", "hint": "BWEH-nos DEE-ahs", "translation": "good morning" },
+        { "text": "buenas tardes", "hint": "BWEH-nas TAR-des", "translation": "good afternoon" },
+        { "text": "buenas noches", "hint": "BWEH-nas NO-chehs", "translation": "good night" },
+        { "text": "perdón", "hint": "pehr-DON", "translation": "sorry" }
+      ],
+      "winCondition": { "correctNeeded": 6 },
+      "tuning": {
+        "monsterStepPx": 30,
+        "recoilPushbackPx": 22,
+        "advanceDurationMs": 150,
+        "bulletDurationMs": 240
+      }
+    },
+    {
+      "id": 3,
+      "name": "Comida y bebida",
+      "words": [
+        { "text": "manzana", "hint": "mahn-ZAH-na", "translation": "apple" },
+        { "text": "sandía", "hint": "san-DEE-ah", "translation": "watermelon" },
+        { "text": "queso", "hint": "KEH-so", "translation": "cheese" },
+        { "text": "agua", "hint": "AH-gwah", "translation": "water" },
+        { "text": "café", "hint": "kah-FEH", "translation": "coffee" }
+      ],
+      "winCondition": { "correctNeeded": 7 },
+      "tuning": {
+        "monsterStepPx": 34,
+        "recoilPushbackPx": 18,
+        "advanceDurationMs": 140,
+        "bulletDurationMs": 230
+      }
+    },
+    {
+      "id": 4,
+      "name": "Verbos (presente)",
+      "words": [
+        { "text": "hablo", "hint": "AH-blo", "translation": "I speak" },
+        { "text": "comes", "hint": "KO-mes", "translation": "you eat" },
+        { "text": "vive", "hint": "BEE-beh", "translation": "he/she lives" },
+        { "text": "queremos", "hint": "keh-REH-mos", "translation": "we want" },
+        { "text": "pueden", "hint": "PWEH-den", "translation": "they can" }
+      ],
+      "winCondition": { "correctNeeded": 8 },
+      "tuning": {
+        "monsterStepPx": 38,
+        "recoilPushbackPx": 16,
+        "advanceDurationMs": 130,
+        "bulletDurationMs": 220
+      }
+    },
+    {
+      "id": 5,
+      "name": "Colores",
+      "words": [
+        { "text": "rojo", "hint": "RO-ho", "translation": "red" },
+        { "text": "azul", "hint": "ah-ZOOL", "translation": "blue" },
+        { "text": "verde", "hint": "BER-deh", "translation": "green" },
+        { "text": "amarillo", "hint": "ah-mah-REE-yo", "translation": "yellow" },
+        { "text": "negro", "hint": "NEH-gro", "translation": "black" }
+      ],
+      "winCondition": { "correctNeeded": 8 },
+      "tuning": {
+        "monsterStepPx": 40,
+        "recoilPushbackPx": 14,
+        "advanceDurationMs": 125,
+        "bulletDurationMs": 210
+      }
+    },
+    {
+      "id": 6,
+      "name": "Números",
+      "words": [
+        { "text": "uno", "hint": "OO-no", "translation": "one" },
+        { "text": "dos", "hint": "dohs", "translation": "two" },
+        { "text": "tres", "hint": "trehs", "translation": "three" },
+        { "text": "cuatro", "hint": "KWA-tro", "translation": "four" },
+        { "text": "cinco", "hint": "SEEN-ko", "translation": "five" },
+        { "text": "seis", "hint": "says", "translation": "six" }
+      ],
+      "winCondition": { "correctNeeded": 9 },
+      "tuning": {
+        "monsterStepPx": 42,
+        "recoilPushbackPx": 12,
+        "advanceDurationMs": 120,
+        "bulletDurationMs": 205
+      }
+    },
+    {
+      "id": 7,
+      "name": "Lugares",
+      "words": [
+        { "text": "escuela", "hint": "es-KWEH-la", "translation": "school" },
+        { "text": "trabajo", "hint": "tra-BA-ho", "translation": "work" },
+        { "text": "casa", "hint": "KAH-sa", "translation": "house" },
+        { "text": "parque", "hint": "PAR-keh", "translation": "park" },
+        { "text": "tienda", "hint": "tee-EN-da", "translation": "store" }
+      ],
+      "winCondition": { "correctNeeded": 10 },
+      "tuning": {
+        "monsterStepPx": 44,
+        "recoilPushbackPx": 11,
+        "advanceDurationMs": 115,
+        "bulletDurationMs": 200
+      }
+    },
+    {
+      "id": 8,
+      "name": "Preguntas",
+      "words": [
+        { "text": "¿qué?", "hint": "keh", "translation": "what?" },
+        { "text": "¿quién?", "hint": "kyen", "translation": "who?" },
+        { "text": "¿dónde?", "hint": "DON-deh", "translation": "where?" },
+        { "text": "¿cuándo?", "hint": "KWAN-do", "translation": "when?" },
+        { "text": "¿por qué?", "hint": "por KEH", "translation": "why?" }
+      ],
+      "winCondition": { "correctNeeded": 10 },
+      "tuning": {
+        "monsterStepPx": 46,
+        "recoilPushbackPx": 10,
+        "advanceDurationMs": 110,
+        "bulletDurationMs": 195
+      }
+    },
+    {
+      "id": 9,
+      "name": "Adjetivos",
+      "words": [
+        { "text": "feliz", "hint": "fe-LEES", "translation": "happy" },
+        { "text": "triste", "hint": "TREES-teh", "translation": "sad" },
+        { "text": "rápido", "hint": "RA-pee-do", "translation": "fast" },
+        { "text": "lento", "hint": "LEN-to", "translation": "slow" },
+        { "text": "fuerte", "hint": "FWER-teh", "translation": "strong" }
+      ],
+      "winCondition": { "correctNeeded": 11 },
+      "tuning": {
+        "monsterStepPx": 48,
+        "recoilPushbackPx": 9,
+        "advanceDurationMs": 105,
+        "bulletDurationMs": 190
+      }
+    },
+    {
+      "id": 10,
+      "name": "Frases útiles",
+      "words": [
+        { "text": "¿cómo estás?", "hint": "KO-mo es-TAS", "translation": "how are you?" },
+        { "text": "mucho gusto", "hint": "MOO-cho GUS-to", "translation": "nice to meet you" },
+        { "text": "lo siento", "hint": "lo SYEN-to", "translation": "I'm sorry" },
+        { "text": "hasta luego", "hint": "AS-ta LWE-go", "translation": "see you later" },
+        { "text": "buen provecho", "hint": "BWEN pro-VE-cho", "translation": "enjoy your meal" }
+      ],
+      "winCondition": { "correctNeeded": 12 },
+      "tuning": {
+        "monsterStepPx": 50,
+        "recoilPushbackPx": 8,
+        "advanceDurationMs": 100,
+        "bulletDurationMs": 185
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,184 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "Saludos",
+      "words": [
+        { "text": "hola", "hint": "OH-la" },
+        { "text": "adiós", "hint": "ah-DYOSS" },
+        { "text": "gracias", "hint": "GRAH-syahs" },
+        { "text": "por favor", "hint": "POR fah-VOR" }
+      ],
+      "winCondition": { "correctNeeded": 4 },
+      "tuning": {
+        "monsterStepPx": 26,
+        "recoilPushbackPx": 26,
+        "advanceDurationMs": 160,
+        "bulletDurationMs": 260
+      }
+    },
+    {
+      "id": 5,
+      "name": "Colores",
+      "words": [
+        { "text": "rojo", "hint": "RO-ho" },
+        { "text": "azul", "hint": "ah-ZOOL" },
+        { "text": "verde", "hint": "BER-deh" },
+        { "text": "amarillo", "hint": "ah-mah-REE-yo" },
+        { "text": "negro", "hint": "NEH-gro" }
+      ],
+      "winCondition": { "correctNeeded": 8 },
+      "tuning": {
+        "monsterStepPx": 40,
+        "recoilPushbackPx": 14,
+        "advanceDurationMs": 125,
+        "bulletDurationMs": 210
+      }
+    },
+    {
+      "id": 6,
+      "name": "Números",
+      "words": [
+        { "text": "uno", "hint": "OO-no" },
+        { "text": "dos", "hint": "dohs" },
+        { "text": "tres", "hint": "trehs" },
+        { "text": "cuatro", "hint": "KWA-tro" },
+        { "text": "cinco", "hint": "SEEN-ko" },
+        { "text": "seis", "hint": "says" }
+      ],
+      "winCondition": { "correctNeeded": 9 },
+      "tuning": {
+        "monsterStepPx": 42,
+        "recoilPushbackPx": 12,
+        "advanceDurationMs": 120,
+        "bulletDurationMs": 205
+      }
+    },
+    {
+      "id": 7,
+      "name": "Lugares",
+      "words": [
+        { "text": "escuela", "hint": "es-KWEH-la" },
+        { "text": "trabajo", "hint": "tra-BA-ho" },
+        { "text": "casa", "hint": "KAH-sa" },
+        { "text": "parque", "hint": "PAR-keh" },
+        { "text": "tienda", "hint": "tee-EN-da" }
+      ],
+      "winCondition": { "correctNeeded": 10 },
+      "tuning": {
+        "monsterStepPx": 44,
+        "recoilPushbackPx": 11,
+        "advanceDurationMs": 115,
+        "bulletDurationMs": 200
+      }
+    },
+    {
+      "id": 8,
+      "name": "Preguntas",
+      "words": [
+        { "text": "¿qué?", "hint": "keh" },
+        { "text": "¿quién?", "hint": "kyen" },
+        { "text": "¿dónde?", "hint": "DON-deh" },
+        { "text": "¿cuándo?", "hint": "KWAN-do" },
+        { "text": "¿por qué?", "hint": "por KEH" }
+      ],
+      "winCondition": { "correctNeeded": 10 },
+      "tuning": {
+        "monsterStepPx": 46,
+        "recoilPushbackPx": 10,
+        "advanceDurationMs": 110,
+        "bulletDurationMs": 195
+      }
+    },
+    {
+      "id": 9,
+      "name": "Adjetivos",
+      "words": [
+        { "text": "feliz", "hint": "fe-LEES" },
+        { "text": "triste", "hint": "TREES-teh" },
+        { "text": "rápido", "hint": "RA-pee-do" },
+        { "text": "lento", "hint": "LEN-to" },
+        { "text": "fuerte", "hint": "FWER-teh" }
+      ],
+      "winCondition": { "correctNeeded": 11 },
+      "tuning": {
+        "monsterStepPx": 48,
+        "recoilPushbackPx": 9,
+        "advanceDurationMs": 105,
+        "bulletDurationMs": 190
+      }
+    },
+    {
+      "id": 10,
+      "name": "Frases útiles",
+      "words": [
+        { "text": "¿cómo estás?", "hint": "KO-mo es-TAS" },
+        { "text": "mucho gusto", "hint": "MOO-cho GUS-to" },
+        { "text": "lo siento", "hint": "lo SYEN-to" },
+        { "text": "hasta luego", "hint": "AS-ta LWE-go" },
+        { "text": "buen provecho", "hint": "BWEN pro-VE-cho" }
+      ],
+      "winCondition": { "correctNeeded": 12 },
+      "tuning": {
+        "monsterStepPx": 50,
+        "recoilPushbackPx": 8,
+        "advanceDurationMs": 100,
+        "bulletDurationMs": 185
+      }
+    }
+    {
+      "id": 2,
+      "name": "Cortesías",
+      "words": [
+        { "text": "buenos días", "hint": "BWEH-nos DEE-ahs" },
+        { "text": "buenas tardes", "hint": "BWEH-nas TAR-des" },
+        { "text": "buenas noches", "hint": "BWEH-nas NO-chehs" },
+        { "text": "perdón", "hint": "pehr-DON" }
+      ],
+      "winCondition": { "correctNeeded": 6 },
+      "tuning": {
+        "monsterStepPx": 30,
+        "recoilPushbackPx": 22,
+        "advanceDurationMs": 150,
+        "bulletDurationMs": 240
+      }
+    },
+    {
+      "id": 3,
+      "name": "Comida y bebida",
+      "words": [
+        { "text": "manzana", "hint": "mahn-ZAH-na" },
+        { "text": "sandía", "hint": "san-DEE-ah" },
+        { "text": "queso", "hint": "KEH-so" },
+        { "text": "agua", "hint": "AH-gwah" },
+        { "text": "café", "hint": "kah-FEH" }
+      ],
+      "winCondition": { "correctNeeded": 7 },
+      "tuning": {
+        "monsterStepPx": 34,
+        "recoilPushbackPx": 18,
+        "advanceDurationMs": 140,
+        "bulletDurationMs": 230
+      }
+    },
+    {
+      "id": 4,
+      "name": "Verbos (presente)",
+      "words": [
+        { "text": "hablo", "hint": "AH-blo" },
+        { "text": "comes", "hint": "KO-mes" },
+        { "text": "vive", "hint": "BEE-beh" },
+        { "text": "queremos", "hint": "keh-REH-mos" },
+        { "text": "pueden", "hint": "PWEH-den" }
+      ],
+      "winCondition": { "correctNeeded": 8 },
+      "tuning": {
+        "monsterStepPx": 38,
+        "recoilPushbackPx": 16,
+        "advanceDurationMs": 130,
+        "bulletDurationMs": 220
+      }
+    }
+  ]
+}
+
