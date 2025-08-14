@@ -27,6 +27,12 @@ export default class BootScene extends Phaser.Scene {
     g.fillRect(0, 0, 20, 8);
     g.generateTexture('bullet', 20, 8);
 
+    // Spark (small white circle 8x8)
+    g.clear();
+    g.fillStyle(0xffffff, 1);
+    g.fillCircle(4, 4, 4);
+    g.generateTexture('spark', 8, 8);
+
     this.scene.start('GameScene');
   }
 }
